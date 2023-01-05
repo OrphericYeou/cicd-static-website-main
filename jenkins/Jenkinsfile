@@ -21,7 +21,7 @@ pipeline {
       steps{
         echo "Step 1"
         git branch: "master",
-          credentialsId: 'YourGithubSshCredentials',
+          credentialsId: 'OrphericYeou',
           url: 'https://github.com/OrphericYeou/cicd-static-website-main.git'
       }
       
